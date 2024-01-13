@@ -1,8 +1,9 @@
 import React from 'react'
 import NavLink from './NavLink'
-
+import { useSelector } from 'react-redux';
 function Nav() {
 
+        const backgroundColor = useSelector(state => )
     return (
         <div className="Nav" style={{'backgroundColor': 'white'}}>
             <NavLink content="Blog" />
